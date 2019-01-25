@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: CC0
+// SPDX-License-Identifier: CC0-1.0
 // Written 2018 Lynn Kirby
 
 const path = require("path");
@@ -98,7 +98,7 @@ gulp.task("update-readme", async () => {
     preview += "  <tr>\n";
     row.forEach(cell => {
       preview += "    <td>";
-      preview += `<center><img src="${cell}" width="128" height="128" style="background-color:rgba(0,0,0,0)">`;
+      preview += `<center><img src="${cell}" width="128" height="128">`;
       preview += `<h6><code>${path.parse(cell).name}</code></h6></center>`;
       preview += "</td>";
     });
