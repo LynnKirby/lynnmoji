@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: CC0
+// SPDX-License-Identifier: CC0-1.0
 // Written 2018 Lynn Kirby
 
 const path = require("path");
