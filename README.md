@@ -11,6 +11,12 @@ around my hard drive in mysterious locations.
 
 ## Build
 
+**Note:** Requires Node 6-11. The version of [Sharp][] used by
+[gulp-responsive][] only supports up to version 11.
+
+[Sharp]: https://github.com/lovell/sharp
+[gulp-responsive]: https://github.com/mahnunchik/gulp-responsive
+
 Graphics processing is coordinated with [Gulp](https://gulpjs.com/):
 
 ```
