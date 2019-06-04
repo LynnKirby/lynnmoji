@@ -100,12 +100,12 @@ gulp.task("update-readme", async () => {
       preview += "    <td>";
       preview += `<center><img src="${cell}" width="128" height="128">`;
       preview += `<h6><code>${path.parse(cell).name}</code></h6></center>`;
-      preview += "</td>";
+      preview += "</td>\n";
     });
     preview += "  </tr>\n";
   });
 
-  preview += "\n</table>\n<!-- PREVIEW SECTION END -->";
+  preview += "</table>\n<!-- PREVIEW SECTION END -->";
 
   const updated = readme.replace(
     /<!-- PREVIEW SECTION START -->(.|\n)*<!-- PREVIEW SECTION END -->/,
