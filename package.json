@@ -8,19 +8,19 @@
   "dependencies": {
     "del": "^3.0.0",
     "fs-extra": "^7.0.1",
-    "globby": "^9.0.0",
-    "gulp": "^4.0.0",
+    "globby": "^9.2.0",
+    "gulp": "^4.0.2",
     "gulp-imagemin": "^5.0.3",
-    "gulp-responsive": "^2.13.0",
+    "gulp-responsive": "^2.14.0",
     "gulplog": "^1.0.0",
     "imagemin": "^6.1.0",
     "imagemin-optipng": "^6.0.0",
     "imagemin-svgo": "^7.0.0",
-    "imagemin-webp": "^5.0.0",
+    "imagemin-webp": "^5.1.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "prettier": "1.16.1",
+    "prettier": "^1.17.1",
     "xo": "^0.24.0"
   },
   "xo": {
