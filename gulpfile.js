@@ -88,7 +88,7 @@ gulp.task("static", async () => {
 // Task: update-readme
 
 gulp.task("update-readme", async () => {
-  const filenames = await globby("graphics/*.svg");
+  const filenames = (await globby("graphics/*.svg")).sort();
   const readme = await fs.readFile("README.md", { encoding: "utf8" });
   await fs.writeFile("README.old.md", readme);
 
