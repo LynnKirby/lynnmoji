@@ -1,6 +1,6 @@
 # ![Lynnmoji](banner.png)
 
-[![build](https://img.shields.io/travis/com/LynnKirby/lynnmoji.svg?style=flat-square)](https://travis-ci.com)
+[![build](https://img.shields.io/travis/com/LynnKirby/lynnmoji.svg?style=flat-square)](https://travis-ci.com/LynnKirby/lynnmoji)
 [![code license CC0](https://img.shields.io/badge/code-CC0--1.0-green.svg?style=flat-square)](LICENSES/CC0-1.0)
 [![graphics license CC-BY-4.0](https://img.shields.io/badge/graphics-CC--BY--4.0-green.svg?style=flat-square)](LICENSES/CC-BY-4.0)
 
